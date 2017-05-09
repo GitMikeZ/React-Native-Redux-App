@@ -17,7 +17,7 @@ const styles = {
         borderBottomWidth: 0,
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
-        shadaowOpacitiy: 0.1,
+        shadowOpacity: 0.1,
         shadowRadius: 2,
         elevation: 1,
         marginLeft: 5,
@@ -26,4 +26,4 @@ const styles = {
     }
 };
 
-export default Card;
+export { Card };

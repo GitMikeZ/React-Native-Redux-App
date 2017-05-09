@@ -25,13 +25,13 @@ const styles = {
     },
     buttonStyle: {
         flex: 1,
-        alginSelf: 'stretch',
+        alignSelf: 'stretch',
         backgroundColor: '#fff',
         borderRadius: 5,
         borderColor: '#007aff',
         marginLeft: 5,
         marginRight: 5
     }
-}
+};
 
-export default Button;
+export { Button };

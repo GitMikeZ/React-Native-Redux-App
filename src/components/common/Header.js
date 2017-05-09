@@ -7,8 +7,8 @@ const Header = (props) => {
     const { textStyle, viewStyle } = styles;
 
     return (
-        <View style={viewStyle}>
-            <Text style={textStyle}>{props.headerText}</Text>
+        <View style={ viewStyle }>
+            <Text style={textStyle}>{ props.headerText }</Text>
         </View>
     );
 };
@@ -32,4 +32,4 @@ const styles = {
 };
 
 // Make the component available to other parts of the app
-export default Header;
+export { Header };
